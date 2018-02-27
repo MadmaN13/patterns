@@ -34,7 +34,7 @@ public class RemoteControlTest {
         SimpleLight kitchenLight = new SimpleLight(KITCHEN);
         CeilingFan ceilingFan = new CeilingFan(LIVING_ROOM);
         GarageDoor garageDoor = new GarageDoor();
-        Stereo stereo = new Stereo();
+        Stereo stereo = new Stereo(LIVING_ROOM);
 
         // create commands and bind to receivers
         LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);
